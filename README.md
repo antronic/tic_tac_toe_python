@@ -12,7 +12,7 @@ $ git clone https://github.com/antronic/tic_tac_toe_python.git
 ```
 3) Go to tic_tac_toe_python directory
 ```sh
-$ python tic_tac_toe.py
+$ cd tic_tac_toe_python
 ```
 4) Run it!
 ```sh
