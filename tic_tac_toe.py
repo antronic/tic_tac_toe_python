@@ -61,20 +61,18 @@ def chkWin():
 
     pos7 = board[6]
 
+    global win
     #Hoz
     if((board[0] == pos1 and board[1] == pos1 and board[2] == pos1) or (board[3] == pos4 and board[4] == pos4 and board[5] == pos4) or (board[6] == pos7 and board[7] == pos7 and board[8] == pos7)):
-        global win
         win = True
         return True
     #Vert
     if((board[0] == pos1 and board[4] == pos1 and board[7] == pos1) or (board[1] == pos2 and board[4] == pos2 and board[7] == pos2) or (board[2] == pos3 and board[5] == pos3 and board[8] == pos3)):
-        global win
         win = True
         return True
 
     #\
     if((board[0] == pos1 and board[4] == pos1 and board[8] == pos1) or (board[2] == pos2 and board[4] == pos2 and board[6] == pos2)):
-        global win
         win = True
         return True
 
