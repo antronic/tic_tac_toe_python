@@ -19,3 +19,19 @@ $ cd tic_tac_toe_python
 $ python tic_tac_toe.py
 ```
 3) Enjoy it!
+```sh
+Welcome to TIC TAC TOE GAME
+---------------------------
+
+Starting with  X
+
+-----------
+ 1 | 2 | 3
+-----------
+ 4 | 5 | 6
+-----------
+ 7 | 8 | 9
+-----------
+
+[ X ] , which position you want to place :
+```
