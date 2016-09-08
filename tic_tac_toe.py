@@ -22,7 +22,19 @@ def showBoard():
 
 def placing():
     print("[",turn, "]", end="")
-    pos = int(input(" , which position you want to place : "))
+    try:
+        pos = int(input(" , which position you want to place : "))
+        if(pos < 1 or pos > 9):
+            print("\n===================================")
+            print("Please insert number between 1 to 9")
+            print("===================================\n")
+            return
+    except ValueError:
+        print("\n======================")
+        print("Wrong input, try again")
+        print("======================\n")
+        return
+
     if(chkPlace(pos) is False):
         print("\n=====================================================")
         print("You cannot place on this position! Please try again.")
