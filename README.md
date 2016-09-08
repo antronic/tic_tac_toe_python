@@ -10,5 +10,4 @@ This is my CSC233 Programming Paradiam's homework.
 ```sh
 git clone https://github.com/antronic/tic_tac_toe_python.git
 ```
-<br />
 3) Enjoy it!
