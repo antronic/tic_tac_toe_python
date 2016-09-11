@@ -79,7 +79,7 @@ def chkWin():
         win = True
         return True
     #Vert
-    if((board[0] == pos1 and board[4] == pos1 and board[7] == pos1) or (board[1] == pos2 and board[4] == pos2 and board[7] == pos2) or (board[2] == pos3 and board[5] == pos3 and board[8] == pos3)):
+    if((board[0] == pos1 and board[3] == pos1 and board[6] == pos1) or (board[1] == pos2 and board[4] == pos2 and board[7] == pos2) or (board[2] == pos3 and board[5] == pos3 and board[8] == pos3)):
         win = True
         return True
 
