@@ -1,6 +1,6 @@
 # Tic Tac Toe Python
 This is my CSC233 Programming Paradiam's homework.
-####Please don't copy whole code, but use just for idea.
+####Please don't copy whole code, but use just for idea.<br />
 ###Requirement
 ----
 * Python3.X
