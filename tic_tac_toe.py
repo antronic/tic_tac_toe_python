@@ -3,6 +3,8 @@
 board = [1,2,3,4,5,6,7,8,9]
 turn = 'X'
 win = False
+draw = False
+count = 0
 
 print("\n")
 print("Welcome to TIC TAC TOE GAME")
@@ -21,6 +23,15 @@ def showBoard():
         count+=1
 
 def placing():
+    global count
+    global win
+    global draw
+    count = count + 1
+    if(count == 9 and win is not True):
+        win = True
+        draw = True
+        return
+
     print("[",turn, "]", end="")
     try:
         pos = int(input(" , which position you want to place : "))
@@ -91,6 +102,12 @@ def chkWin():
     return False
 
 def printEnd():
+    if(draw is not False):
+        print("\n==================")
+        print("Game ended!\nDraw!")
+        print("==================\n")
+        return
+
     print("\n==================")
     print("Game ended!\nThe winner is ", turn,"!")
     print("==================\n")
