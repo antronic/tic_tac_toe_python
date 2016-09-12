@@ -2,9 +2,11 @@
 This is my CSC233 Programming Paradiam's homework.
 ####Please don't copy whole code, but use just for idea.
 ###Requirement
+----
 * Python3.X
 
 ###How to use it
+----
 1) Your computer have to installed Python 3.X<br />
 2) Clone this repo
 ```sh
